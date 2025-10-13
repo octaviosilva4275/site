@@ -17,7 +17,7 @@ export default function CheckoutPage() {
   const [showBonus, setShowBonus] = useState(false);
 
   const handleAddToCart = () => {
-    onClick={() => window.open("https://go.paradisepagbr.com/okvj7wbhiz", "_blank")};
+    onClick={() => window.open("https://go.paradisepagbr.com/okvj7wbhiz", "_blank")}
   };
 
   return (
@@ -261,7 +261,7 @@ export default function CheckoutPage() {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={handleAddToCart}
+                onClick={() => window.location.href = "https://go.paradisepagbr.com/okvj7wbhiz"}
                 className="w-full py-5 px-6 bg-gradient-to-r from-amber-600 to-amber-500 text-white text-xl font-bold rounded-xl shadow-2xl shadow-amber-500/30 hover:shadow-amber-500/50 transition-all duration-300"
               >
                 Garantir Meu Acesso Agora
