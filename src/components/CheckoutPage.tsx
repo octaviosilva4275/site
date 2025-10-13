@@ -140,17 +140,17 @@ const handleAddToCart = () => {
                 {[
                   {
                     title: "E-book: 50 Exemplos Reais de Conversas",
-                    value: "R$ 97",
+                    value: "R$ 9,99",
                     description: "Conversas reais que geraram encontros e relacionamentos"
                   },
                   {
                     title: "Guia: Como Lidar com Testes Femininos",
-                    value: "R$ 67",
+                    value: "R$ 9,99",
                     description: "Responda aos testes de forma que ela te respeite mais"
                   },
                   {
                     title: "Checklist: Sinais de Que Ela Está Interessada",
-                    value: "R$ 47",
+                    value: "R$ 9,99",
                     description: "Nunca mais perca o timing certo para avançar"
                   }
                 ].map((bonus, index) => (
