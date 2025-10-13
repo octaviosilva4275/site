@@ -244,17 +244,17 @@ export default function CheckoutPage() {
                 </div>
 
                 <div>
-                  <div className="text-white/60 text-sm mb-2">De: R$ 497</div>
-                  <div className="text-white/50 text-3xl line-through mb-2">R$ 297</div>
+                  <div className="text-white/60 text-sm mb-2">De: R$ 119,99</div>
+                  <div className="text-white/50 text-3xl line-through mb-2">R$ 79,99</div>
                   <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">
-                    R$ 147
+                    R$ 19,99
                   </div>
                   <div className="text-white/70 text-sm mt-2">ou 12x de R$ 14,50</div>
                 </div>
 
                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/20 border border-green-500 rounded-full text-green-400 text-sm font-semibold">
                   <TrendingUp className="w-4 h-4" />
-                  70% OFF
+                  83% OFF
                 </div>
               </div>
 
