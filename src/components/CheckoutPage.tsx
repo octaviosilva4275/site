@@ -17,7 +17,7 @@ export default function CheckoutPage() {
   const [showBonus, setShowBonus] = useState(false);
 
   const handleAddToCart = () => {
-    alert('Sistema de pagamento em desenvolvimento. Entre em contato para adquirir!');
+    onClick={() => window.open("https://go.paradisepagbr.com/okvj7wbhiz", "_blank")};
   };
 
   return (
@@ -189,14 +189,14 @@ export default function CheckoutPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 {[
                   {
-                    name: "Carlos, 28 anos",
+                    name: "Carlos, 21 anos",
                     text: "Em 2 semanas aplicando o método, ela começou a me procurar todo dia. Funciona mesmo!",
                     stars: 5
                   },
                   {
-                    name: "Ricardo, 32 anos",
+                    name: "Ricardo, 24 anos",
                     text: "Eu sempre dava atenção demais. Depois que aprendi a dosar, tudo mudou na minha vida amorosa.",
-                    stars: 5
+                    stars: 4
                   },
                   {
                     name: "Felipe, 25 anos",
@@ -204,7 +204,7 @@ export default function CheckoutPage() {
                     stars: 5
                   },
                   {
-                    name: "André, 30 anos",
+                    name: "André, 19 anos",
                     text: "Finalmente entendi o jogo da atração. Agora eu que escolho, não o contrário.",
                     stars: 5
                   }
