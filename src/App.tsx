@@ -4,6 +4,9 @@ import { MessageCircle, Heart, Zap, Shield, Check, ChevronLeft, ChevronRight } f
 function App() {
   const [scrollY, setScrollY] = useState(0);
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
+  const handleCTAClick = () => {
+  window.location.href = "https://go.paradisepagbr.com/okvj7wbhiz";
+};
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -86,7 +89,7 @@ function App() {
             </p>
 
             <button
-              onClick={() => window.location.href = "https://go.paradisepagbr.com/okvj7wbhiz"}
+              onClick={handleCTAClick}
               className="bg-red-600 hover:bg-red-700 text-white font-black text-xl px-12 py-6 rounded-full transition-all transform hover:scale-105 animate-pulse-glow mt-8"
             >
               Quero Aprender Agora
