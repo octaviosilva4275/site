@@ -161,7 +161,7 @@ function App() {
                   <p className="text-center text-gray-400 text-sm">Oferta por tempo limitado</p>
                 </div>
 
-                <button className="w-full bg-red-600 hover:bg-red-700 text-white font-black text-2xl px-8 py-6 rounded-full transition-all transform hover:scale-105 animate-pulse-glow">
+                <button onClick={handleCTAClick} className="w-full bg-red-600 hover:bg-red-700 text-white font-black text-2xl px-8 py-6 rounded-full transition-all transform hover:scale-105 animate-pulse-glow">
                   Quero Acessar Agora
                 </button>
 
@@ -298,7 +298,7 @@ function App() {
             <p className="text-xl text-gray-300">
               Não deixa mais nenhuma conversa morrer. Aprende agora as mensagens que fazem ela correr atrás.
             </p>
-            <button className="bg-red-600 hover:bg-red-700 text-white font-black text-2xl px-12 py-6 rounded-full transition-all transform hover:scale-105 animate-pulse-glow">
+            <button onClick={handleCTAClick} className="bg-red-600 hover:bg-red-700 text-white font-black text-2xl px-12 py-6 rounded-full transition-all transform hover:scale-105 animate-pulse-glow">
               Garantir Meu Acesso Agora
             </button>
           </div>
